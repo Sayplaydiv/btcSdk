@@ -1,4 +1,4 @@
-module new
+module btcsdk
 
 go 1.16
 
