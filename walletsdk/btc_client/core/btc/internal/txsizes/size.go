@@ -8,7 +8,7 @@ import (
 	"github.com/btcsuite/btcd/blockchain"
 	"github.com/btcsuite/btcd/wire"
 
-	h "new/walletsdk/btc_client/core/btc/internal/helpers"
+	h "btcsdk/walletsdk/btc_client/core/btc/internal/helpers"
 )
 
 // Worst case script and input/output size estimates.

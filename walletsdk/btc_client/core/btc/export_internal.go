@@ -1,8 +1,8 @@
 package btc
 
 import (
-	"new/walletsdk/btc_client/core"
-	"new/walletsdk/btc_client/core/btc/internal"
+	"btcsdk/walletsdk/btc_client/core"
+	"btcsdk/walletsdk/btc_client/core/btc/internal"
 )
 
 // Btc (全部大写在导出到java那边有点问题)

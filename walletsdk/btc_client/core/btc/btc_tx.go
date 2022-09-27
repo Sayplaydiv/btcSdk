@@ -1,12 +1,12 @@
 package btc
 
 import (
+	"btcsdk/walletsdk/btc_client/core/btc/internal"
+	"btcsdk/walletsdk/btc_client/core/btc/internal/helpers"
+	"btcsdk/walletsdk/btc_client/core/btc/internal/txauthor"
 	"bytes"
 	"encoding/hex"
 	"encoding/json"
-	"new/walletsdk/btc_client/core/btc/internal"
-	"new/walletsdk/btc_client/core/btc/internal/helpers"
-	"new/walletsdk/btc_client/core/btc/internal/txauthor"
 	"sync"
 
 	"github.com/btcsuite/btcd/btcjson"

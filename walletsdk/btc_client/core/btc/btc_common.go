@@ -1,8 +1,8 @@
 package btc
 
 import (
+	"btcsdk/walletsdk/btc_client/core/btc/internal"
 	"github.com/btcsuite/btcutil"
-	"new/walletsdk/btc_client/core/btc/internal"
 )
 
 // BTCAddress .

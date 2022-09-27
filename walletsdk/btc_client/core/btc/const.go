@@ -1,7 +1,7 @@
 package btc
 
 import (
-	"new/walletsdk/btc_client/core/btc/internal"
+	"btcsdk/walletsdk/btc_client/core/btc/internal"
 )
 
 // ChainMainNet 链：MainNet

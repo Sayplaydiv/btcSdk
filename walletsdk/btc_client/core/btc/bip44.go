@@ -1,8 +1,8 @@
 package btc
 
 import (
+	"btcsdk/walletsdk/btc_client/core/btc/internal"
 	"github.com/dabankio/wallet-core/bip44"
-	"new/walletsdk/btc_client/core/btc/internal"
 )
 
 // NewBip44Deriver btc bip44 实现

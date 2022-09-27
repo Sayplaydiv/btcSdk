@@ -8,6 +8,7 @@ import (
 	"encoding/hex"
 	"strings"
 
+	"btcsdk/walletsdk/btc_client/core/btc/internal/txscript"
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcd/btcjson"
 	"github.com/btcsuite/btcd/chaincfg"
@@ -16,7 +17,6 @@ import (
 	"github.com/btcsuite/btcutil"
 	"github.com/pkg/errors"
 	"github.com/shopspring/decimal"
-	"new/walletsdk/btc_client/core/btc/internal/txscript"
 )
 
 // SignRawTransaction handles the signrawtransaction command.

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"btcsdk/walletsdk/btc_client/core/btc"
 	"fmt"
 	"github.com/blocktree/go-owcdrivers/addressEncoder"
 	"github.com/blocktree/go-owcdrivers/btcLikeTxDriver"
@@ -10,7 +11,6 @@ import (
 	"github.com/dabankio/wallet-core/bip39"
 	"github.com/dabankio/wallet-core/bip44"
 	"log"
-	"new/walletsdk/btc_client/core/btc"
 )
 
 func main() {

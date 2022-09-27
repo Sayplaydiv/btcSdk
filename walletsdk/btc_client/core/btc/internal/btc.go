@@ -1,9 +1,9 @@
 package internal
 
 import (
+	"btcsdk/walletsdk/btc_client/core"
 	"encoding/hex"
 	"github.com/dabankio/wallet-core/bip44"
-	"new/walletsdk/btc_client/core"
 	"strings"
 
 	"github.com/btcsuite/btcd/btcec"
